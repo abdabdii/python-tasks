@@ -9,4 +9,6 @@ def printValue(number):
     return number
 
 for i in range(1,100):
-    print(printValue(i))
+    value = printValue(i)
+    if value:
+        print(value)
